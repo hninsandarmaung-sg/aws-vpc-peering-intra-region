@@ -2,7 +2,7 @@ terraform {
   required_version = "~>1.16.0"
 
   cloud {
-    organization = "hc-team"
+    organization = "hsdm-vcs-org"
 
     workspaces {
       name = "workspace-runner-ws"
